@@ -1,5 +1,7 @@
 # Proxy Surfer
 
+![Proxy Loader Logo](./images/logo.webp)
+
 Proxy Surfer is a Chrome extension that allows you to manage and use HTTP proxies easily. You can fetch the latest proxy list, start a proxy, and disconnect from a proxy directly from the extension's popup interface.
 
 ## Features
