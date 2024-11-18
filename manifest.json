@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Proxy Loader",
+    "version": "1.0",
+    "permissions": ["proxy", "storage", "activeTab", "scripting"],
+    "host_permissions": ["https://api.proxyscrape.com/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    },
+    "web_accessible_resources": [
+      {
+        "resources": ["default_proxies.json"],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }
+  
