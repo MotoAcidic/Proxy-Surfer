@@ -50,8 +50,11 @@
   <div class="container">
     <button id="scrapeProxies" class="btn btn-primary">Fetch Latest Proxy List</button>
     <button id="startProxy" class="btn btn-success">Start Proxy</button>
-    <button id="startWithIntervals" class="btn btn-warning">Start with Intervals</button>
-    <button id="nextProxy" class="btn btn-info">Set Next Proxy</button>
+    <button id="startWithIntervals" class="btn btn-warning">Start with Intervals (Not Working Yet)</button>
+    <button id="nextProxy" class="btn btn-info">Set Next Proxy (Not Working Yet)</button>
+    <label for="loadProxiesFromFile" class="btn btn-secondary">Load Downloaded Proxy List</label>
+    <input type="file" id="loadProxiesFromFile" class="d-none" accept=".txt">
+    <button id="downloadProxies" class="btn btn-secondary">Download Proxy List</button>
     <button id="disconnectProxy" class="btn btn-danger">Disconnect Proxy</button>
     <div id="status" class="alert alert-secondary mt-3" role="alert">
       <div id="status-main">Status: Idle</div>

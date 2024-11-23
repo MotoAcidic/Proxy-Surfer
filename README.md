@@ -34,9 +34,17 @@ Proxy Surfer is a Chrome extension that allows you to manage and use HTTP proxie
     - **Start Proxy**: Starts a random proxy from the list.
     - **Start with Intervals**: Starts proxies at regular intervals (feature to be implemented).
     - **Set Next Proxy**: Sets the next proxy in the list (feature to be implemented).
+    - **Load Proxy List from File**: Load a list of proxies from a file.
+    - **Download Proxy List**: Downloads the latest proxy list from ProxyScrape and saves it as a file.
     - **Disconnect Proxy**: Disconnects the current proxy.
 
 3. The status section in the popup will display the current proxy status and any relevant messages.
+
+4. To load a proxy list from a file:
+    - Click on the **Load Downloaded Proxy List** button and select the file containing the proxy list.
+
+5. To download the latest proxy list:
+    - Click on the **Download Proxy List** button to download the latest proxy list from ProxyScrape and save it as a file.
 
 ## Files
 
